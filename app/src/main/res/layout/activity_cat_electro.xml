@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondouno"
+    tools:context=".cat_electro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.557">
+
+            <ImageView
+                android:id="@+id/elec1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/astro"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/electro1"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:textSize="32px"
+                android:onClick="reproducirMusica"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:background="#66000000"
+                android:layout_weight="3"
+                android:text="Vicetone y Tony Igy - Astronomia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.389">
+
+            <ImageView
+                android:id="@+id/elec2"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/ncsechoes" />
+
+            <Button
+                android:id="@+id/electro2"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:onClick="reproducirMusica"
+                android:background="#66000000"
+                android:layout_weight="3"
+                android:text="LFZ - Echoes [NCS Release]"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725">
+
+            <ImageView
+                android:id="@+id/elec3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/glitch"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/electro3"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_weight="3"
+                android:textColor="@color/white"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:textSize="32px"
+                android:layout_marginRight="20dp"
+                android:text="Martin Garrix y Julian Jordan - Glitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.054">
+
+            <ImageView
+                android:id="@+id/elec4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/jackpot"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/electro4"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_weight="3"
+                android:textSize="32px"
+                android:layout_marginRight="20dp"
+                android:onClick="reproducirMusica"
+                android:textColor="@color/white"
+                android:background="#66000000"
+                android:text="TheFatRat - Jackpot (Jackpot EP Track 1)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+            <ImageView
+                android:id="@+id/elec5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:background="@drawable/ncsechoes"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/electro5"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_weight="3"
+                android:textSize="32px"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:onClick="reproducirMusica"
+                android:background="#66000000"
+                android:text="Tobu y Marcus Mouya - Running Away [NCS Release]" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.888">
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
